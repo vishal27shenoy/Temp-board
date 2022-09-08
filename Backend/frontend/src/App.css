@@ -1,0 +1,141 @@
+:root{
+  background-color: #cfd8dc;
+}
+.container{
+  width: 1200px;
+  height: 700px;
+  border: solid black;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+}
+.contenttoretrive{
+  height: 700px;
+  border-left: solid black;
+  margin-left: 20px;
+}
+.con>textarea{
+  height: 600px;
+  width: 560px;
+  resize: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btnsend{
+  display: flex;
+  margin-left: auto;
+  width: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+.send{
+  height: 30px;
+  margin-right: 20px;
+}
+.btnandtext{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.btnandtext>input{
+  height: 30px;
+  
+}
+.fetch{
+  margin-left: 20px;
+  height: 30px;
+}
+.text{
+  width: fit-content;
+  height: fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.text>textarea{
+  height: 600px;
+  width: 560px;
+  resize: none;
+}
+.cpybtn{
+  margin-left: 20px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+@media only screen and (max-width: 400px) {
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+    .container{
+      width: 350px;
+      height: 980px;
+      border: solid black;
+      margin: auto;
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+    }
+    .contenttosend{
+      border-bottom: solid black 1px;
+    }
+    .contenttoretrive{
+      height: 320px;
+      border-left:none;
+    }
+    .con>textarea{
+      height: 400px;
+      width: 310px;
+      resize: none;
+      margin-left: 20px;
+      margin-top: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .btnsend{
+      display: flex;
+      margin-left: auto;
+      width: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .send{
+      height: 30px;
+      margin-right: 20px;
+    }
+    .btnandtext{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .btnandtext>input{
+      height: 30px;
+      
+    }
+    .fetch{
+      margin-left: 20px;
+      height: 30px;
+    }
+    .text{
+      width: fit-content;
+      height: fit-content;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+    .text>textarea{
+      height: 400px;
+      width: 310px;
+      resize: none;
+      margin-left: -10px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
